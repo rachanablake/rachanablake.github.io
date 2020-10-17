@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("B6.jpg");
+    background-size: 80%;
+    font-family: product sans;
+    color: white;
+}
+.background{
+    position: absolute;
+    left: 7.5%;
+    top: 10%;
+    background-image: linear-gradient(to top, #0093E9,  #80D0C7);
+    width: 85%;
+    height: 80% ;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+.left{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+b{
+    /* (Bold letter) */
+    color: #80D0C7;
+}
+.background .about{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.background .right{
+    float: right;
+    background-color: #393e46;
+    width: 75%;
+    height: 100%;
+    border-radius: 40px;
+}
+.right h1{
+    /* About Me (decription) */
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+.left h1{
+    /* Sor Rachana */
+    text-align: center;
+    margin-top: 107%;
+}
+.skill{
+    /* Information Technology */
+    text-align: center;
+    font-size: 110%;
+}
+.logo img{
+    /* logo */
+    width: 65%;
+    display: block;
+    margin-top: -85%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 180px;
+    box-shadow: 3px 3px 6px black;
+}
+.left .copyright{
+    /* © 2020 RachanaBlake */
+    text-align: center;
+    position: absolute;
+    bottom: 1.5%;
+    width: 25%;
+}
+.personal{
+    /* age, phone, address, resedence, e-mail */
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    font-size: 135%;
+}
+.right span{
+    /* Me / Skill */
+    color:#80D0C7;
+}
+.right .skill-title{
+    /* Application Skill */
+    position: absolute;
+    top: 54%;
+    left: 30%;
+}
+.skill-1 .title{
+    color: white;
+    position: absolute;
+    top: 62.7%;
+    left: 30.3%;
+    font-size: 90%;
+    white-space: nowrap;
+}
+.skill-1 .percent{
+    position: absolute;
+    top: 62.8%;
+    left: 47%;
+    font-size: 74%;
+    color: #d6e0f0;
+}
+.skill-1 .outline{
+    position: absolute;
+    top: 64.8%;
+    left: 30%;
+    width: 18.2%;
+    height: 1%;
+    border-radius: 80px;
+    border: 1px solid #80D0C7;
+}
+.skill-1 .line{
+    position: absolute;
+    top: 65.2%;
+    left: 30.17%;
+    width: 16%;
+    height: 0.5%;
+    border-radius: 80px;
+    background-color: #80D0C7;
+}
+.skill-2 .title{
+    color: white;
+    position: absolute;
+    top: 69.8%;
+    left: 30.3%;
+    font-size: 90%;
+    white-space: nowrap;
+}
+.skill-2 .percent{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    font-size: 74%;
+    color: #d6e0f0;
+}
+.skill-2 .outline{
+    position: absolute;
+    top: 71.9%;
+    left: 30%;
+    width: 18.2%;
+    height: 1%;
+    border-radius: 80px;
+    border: 1px solid #80D0C7;
+}
+.skill-2 .line{
+    position: absolute;
+    top: 72.3%;
+    left: 30.17%;
+    width: 9.5%;
+    height: 0.5%;
+    border-radius: 80px;
+    background-color: #80D0C7;
+}
+.skill-3 .title{
+    color: white;
+    position: absolute;
+    top: 77.3%;
+    left: 30.3%;
+    font-size: 90%;
+    white-space: nowrap;
+}
+.skill-3 .percent{
+    position: absolute;
+    top: 77.8%;
+    left: 47%;
+    font-size: 74%;
+    color: #d6e0f0;
+}
+.skill-3 .outline{
+    position: absolute;
+    top: 79.6%;
+    left: 30%;
+    width: 18.2%;
+    height: 1%;
+    border-radius: 80px;
+    border: 1px solid #80D0C7;
+}
+.skill-3 .line{
+    position: absolute;
+    top: 80%;
+    left: 30.17%;
+    width: 13.5%;
+    height: 0.5%;
+    border-radius: 40px;
+    background-color: #80D0C7;
+}
+.skill-4 .title{
+    color: white;
+    position: absolute;
+    top: 84.5%;
+    left: 30.3%;
+    font-size: 90%;
+    white-space: nowrap;
+}
+.skill-4 .percent{
+    position: absolute;
+    top: 84.8%;
+    left: 47%;
+    font-size: 74%;
+    color: #d6e0f0;
+}
+.skill-4 .outline{
+    position: absolute;
+    top: 86.8%;
+    left: 30%;
+    width: 18.2%;
+    height: 1%;
+    border-radius: 80px;
+    border: 1px solid #80D0C7;
+}
+.skill-4 .line{
+    position: absolute;
+    top: 87.2%;
+    left: 30.17%;
+    width: 4.5%;
+    height: 0.5%;
+    border-radius: 80px;
+    background-color: #80D0C7;
+}
+.blocktitle{
+    position: absolute;
+    top: 54%;
+    left: 75%;
+}
+.knowlage li{
+    display: inline-block;
+    padding: 2% 2%;
+    background-color: #80D0C7;
+    border-radius: 5px;
+    margin: 1%;
+}
+.left ul{
+    position: relative;
+    top: 12%;
+    left: 27.5%;
+}
+.left .social-media li{
+    display: inline-flex;
+    margin: 0 3%;
+    font-size: 200%;
+}
+a{
+    color: white;
+}
